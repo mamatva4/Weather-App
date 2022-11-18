@@ -55,10 +55,10 @@ body{
  @media screen and (max-width:500px) {
     #form{
         width: 90% !important;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
     #heading{
-        margin-top: 35%;
+        margin-top: 10%;
         
      }
  }
