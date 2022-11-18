@@ -1,12 +1,12 @@
 #form{
-    width: 35% !important;
+    width: 30% !important;
     margin: auto;
     margin-top: 8%;
 }
 
 body{
-    width:100vw;
     height: 90vh;
+    width: 100vw;
     background-color: #1a2533;
     color: whitesmoke;
     font-size: large;
@@ -50,4 +50,15 @@ body{
     font-weight: 900;
     letter-spacing: 3px;
     
+ }
+
+ @media screen and (max-width:500px) {
+    #form{
+        width: 90% !important;
+        margin-top: 10rem;
+    }
+    #heading{
+        margin-top: 35%;
+        
+     }
  }
